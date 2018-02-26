@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         OldAgar.PRO WHITE
 // @namespace    OldAgar.PRO
-// @version      1.1
+// @version      1.2
 // @description  OldAgar.PRO Classic Style extension
 // @author       Old One
 // @homepage     http://oldagar.pro/
 // @match        http://oldagar.pro/*
 // @icon         http://oldagar.pro/favicon.ico
+// @downloadURL  https://github.com/OldAgario/oldagar/raw/master/oldagar.classic.user.js
+// @updateURL    https://github.com/OldAgario/oldagar/raw/master/oldagar.classic.user.js
 // @run-at       document-end
 // @grant        GM_addStyle
 // ==/UserScript==
@@ -92,7 +94,7 @@ label {
 //$('.bgimg').removeClass('bgimg');
 
 //optional change logo
-$('.bgimg').css('background-image','url(http://glyphfonts.ru/plusio/bg.png)');
+$('.bgimg').css('background-image','url(https://raw.githubusercontent.com/OldAgario/oldagar/master/bg.png)');
 
 $('#settings-btn').remove();
 $('#settings').insertBefore('#instructions');
