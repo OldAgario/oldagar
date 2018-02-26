@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         OldAgar.PRO BLACK
 // @namespace    OldAgar.PRO
-// @version      1.1
+// @version      1.2
 // @description  OldAgar.PRO extension
 // @author       Old One
 // @homepage     http://oldagar.pro/
 // @match        http://oldagar.pro/*
 // @icon         http://oldagar.pro/favicon.ico
+// @downloadURL  https://github.com/OldAgario/oldagar/raw/master/oldagar.user.js
+// @updateURL    https://github.com/OldAgario/oldagar/raw/master/oldagar.user.js
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
@@ -27,6 +29,9 @@ $('label').css({
     'min-width':'94px',
     'display':'inline-block'
 });
+//optional change logo
+$('.bgimg').css('background-image','url(https://raw.githubusercontent.com/OldAgario/oldagar/master/bg.png)');
+
 $('#instructions center .text-muted').append('<br />Press <b style="color: red">T</b> to stop minion<br />Press <b style="color: red">SHIFT</b> to split 16');
 $('<span class="text-muted" style="color:#3071a9;">Author: '+GM_info.script.author+' &copy;'+year+' | v'+GM_info.script.version+'</span><br />').prependTo('#footer');
 
