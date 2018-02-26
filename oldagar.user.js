@@ -6,7 +6,7 @@
 // @author       Old One
 // @homepage     http://oldagar.pro/
 // @match        http://oldagar.pro/*
-// @icon         http://oldagar.pro/favicon.ico
+// @icon         http://oldagar.pro/assets/img/favicon.png
 // @downloadURL  https://github.com/OldAgario/oldagar/raw/master/oldagar.user.js
 // @updateURL    https://github.com/OldAgario/oldagar/raw/master/oldagar.user.js
 // @run-at       document-end
