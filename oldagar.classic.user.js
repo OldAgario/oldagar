@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OldAgar.PRO WHITE
 // @namespace    OldAgar.PRO
-// @version      1.3
+// @version      1.4
 // @description  OldAgar.PRO Classic Style extension
 // @author       Old One
 // @homepage     http://oldagar.pro/
@@ -24,9 +24,6 @@ GM_addStyle(`
 }
 #instructions {
 	margin: 6px 0 20px 0 !important;
-}
-.bgimg {
-	margin: 0;
 }
 .text-muted b {
 	color: #777 !important;
