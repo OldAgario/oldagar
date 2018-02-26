@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OldAgar.PRO BLACK
 // @namespace    OldAgar.PRO
-// @version      1.2
+// @version      1.3
 // @description  OldAgar.PRO extension
 // @author       Old One
 // @homepage     http://oldagar.pro/
@@ -29,6 +29,7 @@ $('label').css({
     'min-width':'94px',
     'display':'inline-block'
 });
+$('#play-btn').text('Play');
 //optional change logo
 $('.bgimg').css('background-image','url(https://raw.githubusercontent.com/OldAgario/oldagar/master/bg.png)');
 
