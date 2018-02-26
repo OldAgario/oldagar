@@ -1,15 +1,17 @@
 // ==UserScript==
 // @name         OldAgar.PRO BLACK
 // @namespace    OldAgar.PRO
-// @version      1.0
+// @version      1.1
 // @description  OldAgar.PRO extension
-// @author       MacGruber
+// @author       Old One
 // @homepage     http://oldagar.pro/
 // @match        http://oldagar.pro/*
 // @icon         http://oldagar.pro/favicon.ico
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
+
+var year = (new Date()).getFullYear();
 
 $('#settings-btn').remove();
 $('#play-btn').css('width','100%');
@@ -26,6 +28,7 @@ $('label').css({
     'display':'inline-block'
 });
 $('#instructions center .text-muted').append('<br />Press <b style="color: red">T</b> to stop minion<br />Press <b style="color: red">SHIFT</b> to split 16');
+$('<span class="text-muted" style="color:#3071a9;">Author: '+GM_info.script.author+' &copy;'+year+' | v'+GM_info.script.version+'</span><br />').prependTo('#footer');
 
 //CONTROLS
 //https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
