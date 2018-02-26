@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OldAgar.PRO WHITE
 // @namespace    OldAgar.PRO
-// @version      1.2
+// @version      1.3
 // @description  OldAgar.PRO Classic Style extension
 // @author       Old One
 // @homepage     http://oldagar.pro/
